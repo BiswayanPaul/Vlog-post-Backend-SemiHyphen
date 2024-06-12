@@ -14,6 +14,12 @@ Clone the project
 
 Go to the project directory
 
+Create a .env file and add your sql string and change the RootName, Password and DBName.
+
+```bash
+DATABASE_URL="mysql://<RootName>:<Password>@localhost:3306/<DBName>"
+```
+
 Install dependencies
 
 ```bash
